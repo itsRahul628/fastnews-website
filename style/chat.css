@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #2c3e50; /* Dark background */
+    color: white; /* White text */
+}
+
+/* Navigation bar with a modern look */
+nav {
+    background-color: rgba(79, 158, 255, 0.8); /* Semi-transparent blue */
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Centered navigation links */
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+    flex: 1;
+}
+
+/* Navbar links with better hover effects */
+ul a {
+    font-size: 20px;
+    font-weight: bold;
+    color: white; /* White text */
+    cursor: pointer;
+    transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    text-decoration: none;
+    position: relative;
+}
+
+/* Hover effect: Larger text & glowing underline */
+ul a:hover {
+    color: #ffcc00; 
+    transform: scale(1.1);
+}
+
+/* Logo Styling */
+.logo {
+    height: 60px;
+    width: 70px;
+    border-radius: 23px;
+    mix-blend-mode: multiply;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+/* Stylish Login Button */
+.login-button {
+    padding: 6px 14px;
+    background: linear-gradient(135deg, #ff9f4a, #963410);/* Soft orange/peach */
+    color: black; /* White text */
+    text-decoration: none;
+    border-radius: 20px;
+    margin-left: auto;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+
+/* Login Button Hover Effect */
+.login-button:hover {
+    background: linear-gradient(135deg, #bd6f2a, #963410); /* Gradient effect */
+    color: white;
+    transform: scale(1.2);
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: white; /* White text */
+    cursor: pointer;
+    transition: color 1s ease-in-out, transform 1s ease-in-out;
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+    flex: 1;
+    
+
+}
+
+.heading :hover{
+    color: #ffcc00; 
+    transform: scale(1.1);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    gap: 5px;
+}
+
+.box1, .box2, .box3, .box4 {
+    height: 55vh;
+    width: 20vw;
+    margin: 9px;
+    border-radius: 10px;
+    background-color: rgba(79, 158, 255, 0.2); /* Light blue with transparency */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.box1{
+    background-color: #602c1a;
+}
+.box2{
+    background-color: rgb(36, 121, 121);
+}
+.box3{
+    background-color: rgb(85, 85, 14);
+}
+.box1 h2{
+    background-color: black;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2 h2, .box3 h2, .box4 h2{
+    height: 6vh;
+}
+
+
+.box1:hover, .box2:hover, .box3:hover, .box4:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(49, 21, 21, 0.895);
+    color: #ffcc00; 
+}
+
+.container h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: 800;
+    background-color: #974a07; /* Soft orange/peach */
+    margin-top: 9px;
+   
+}
+
+.more-News {
+    border: 2px solid transparent;
+    padding: 4px 6px;
+    background: linear-gradient(135deg, #ff9f4a, #873619);
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #000000;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.more-News:hover {
+    background-color: #5d320c; /* Soft orange/peach *//* Gradient effect */
+    transform: scale(1.05);
+    color: #d3c6c6;
+}
+
+.headlines {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    font-weight: 600;
+    color: #cd8d54; /* Soft orange/peach */
+    gap: 5px;
+}
+
+.dot {
+    background-color: #ff9f4a; /* Soft orange/peach */
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    margin-left: 4px;
+}
+
+.para1, .para2, .para3 {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    margin-left: 8px;
+    font-weight: 600;
+    flex: 1;
+    cursor: pointer;
+    color: #d6cbcb; /* White text */
+}
+
+.para1:hover, .para2:hover, .para3:hover {
+    color: #ffcc00; 
+    /* color: black; */
+    background-color: rgba(255, 255, 255, 0.2); /* Light background on hover */
+    transition: all 0.3s ease; /* Smooth transition effect */
+}
